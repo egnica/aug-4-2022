@@ -20,7 +20,7 @@ function App() {
    { userObject.item.length !== 0 &&
       <div style={{display:'grid', placeContent:'center'}}>
         <h2>Data</h2>
-        <table>
+        <table className="customers">
           <thead>
             <tr>
               <th>Index</th>
